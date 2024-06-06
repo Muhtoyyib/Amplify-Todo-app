@@ -1,13 +1,37 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <meta charset="utf-8" />
+    <title>Amplify</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="style.css" rel="stylesheet" />
   </head>
+
   <body>
-    <div id="app"></div>
+    <div class="app">
+      <!--  APP-Header  -->
+      <div class="app-header">
+        <h1>Welcome to Amplify</h1>
+      </div>
+
+      <!-- APP-Body -->
+      <div class="app-body">
+        <h1>Mutation Results</h1>
+        <button id="MutationEventButton">Add data</button>
+        <div id="MutationResult"></div>
+        <hr />
+
+        <h1>Query Results</h1>
+        <div id="QueryResult"></div>
+        <hr />
+
+        <h1>Subscription Results</h1>
+        <div id="SubscriptionResult"></div>
+      </div>
+    </div>
+
+
+    <!-- JS File -->
     <script type="module" src="/main.js"></script>
   </body>
 </html>
