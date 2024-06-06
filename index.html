@@ -17,7 +17,18 @@
       <!-- APP-Body -->
       <div class="app-body">
         <h1>Mutation Results</h1>
-        <button id="MutationEventButton">Add data</button>
+        <!-- <button id="MutationEventButton">Add data</button> -->
+
+        <form id="todoForm">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required><br><br>
+        
+          <label for="description">Description:</label>
+          <input type="text" id="description" name="description"><br><br>
+        
+          <button id="MutationEventButton">Add data</button>
+        </form>
+
         <div id="MutationResult"></div>
         <hr />
 
